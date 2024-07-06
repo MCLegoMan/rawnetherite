@@ -1,0 +1,40 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_raw_netherite_scrap": {
+      "conditions": {
+        "items": [
+          {
+            "items": "rawnetherite:raw_netherite_scrap"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "rawnetherite:netherite_scrap"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_the_recipe_from_blasting": {
+      "conditions": {
+        "recipe": "rawnetherite:netherite_scrap_from_blasting"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_the_recipe_from_blasting",
+      "has_raw_netherite_scrap"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "rawnetherite:netherite_scrap",
+      "rawnetherite:netherite_scrap_from_blasting"
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "rawnetherite:item/raw_netherite_scrap"
+  }
+}
